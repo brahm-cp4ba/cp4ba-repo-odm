@@ -1,0 +1,97 @@
+/terraform/test/stages/.terraform/modules/gitops_cb4ba_operator.setup_clis/scripts: (all) Input: {"bin_dir":"/terraform/test/stages/bin2","clis":"yq,jq,igc","uuid":"cipuxpojkgzlkvcp"}
+/terraform/test/stages/.terraform/modules/gitops_namespace.setup_clis/scripts: (all) Input: {"bin_dir":"/terraform/test/stages/bin2","clis":"yq,jq,igc","uuid":"phdyaiwlnmjnibgo"}
+/terraform/test/stages/.terraform/modules/gitops_pull_secret.setup_clis/scripts: (all) Input: {"bin_dir":"/terraform/test/stages/bin2","clis":"jq,kubectl,igc","uuid":"fsgczshqlataxlez"}
+/terraform/test/stages/.terraform/modules/gitops_cb4ba_operator.setup_clis/scripts: (all) Detected os type: alpine
+/terraform/test/stages/.terraform/modules/gitops_namespace.setup_clis/scripts: (all) Detected os type: alpine
+/terraform/test/stages/.terraform/modules/gitops_cb4ba_operator.setup_clis/scripts: (all) Detected architecture: amd64
+/terraform/test/stages/.terraform/modules/gitops_namespace.setup_clis/scripts: (all) Detected architecture: amd64
+/terraform/test/stages/.terraform/modules/gitops.setup_clis/scripts: (all) Input: {"bin_dir":"/terraform/test/stages/bin2","clis":"jq,yq,gitu","uuid":"calsahezfihdehrf"}
+/terraform/test/stages/.terraform/modules/setup_clis/scripts: (all) Input: {"bin_dir":"/terraform/test/stages/bin2","clis":"yq,jq,igc","uuid":"apdozlsoxreslolg"}
+/terraform/test/stages/.terraform/modules/gitops_pull_secret.setup_clis/scripts: (all) Detected os type: alpine
+/terraform/test/stages/.terraform/modules/gitops.setup_clis/scripts: (all) Detected os type: alpine
+/terraform/test/stages/.terraform/modules/gitops_cb4ba_operator.setup_clis/scripts: (jq) CLI already available in PATH. Creating symlink in /terraform/test/stages/bin2
+/terraform/test/stages/.terraform/modules/gitops_namespace.setup_clis/scripts: (jq) CLI already available in PATH. Creating symlink in /terraform/test/stages/bin2
+/terraform/test/stages/.terraform/modules/gitops_pull_secret.setup_clis/scripts: (all) Detected architecture: amd64
+/terraform/test/stages/.terraform/modules/gitops.setup_clis/scripts: (all) Detected architecture: amd64
+/terraform/test/stages/.terraform/modules/setup_clis/scripts: (all) Detected os type: alpine
+/terraform/test/stages/.terraform/modules/gitops_cb4ba_operator.setup_clis/scripts: (jq) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops.setup_clis/scripts: (jq) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/setup_clis/scripts: (all) Detected architecture: amd64
+/terraform/test/stages/.terraform/modules/gitops_pull_secret.setup_clis/scripts: (jq) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_namespace.setup_clis/scripts: (kubeseal) CLI already available in PATH. Creating symlink in /terraform/test/stages/bin2
+/terraform/test/stages/.terraform/modules/setup_clis/scripts: (jq) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops.setup_clis/scripts: (kubeseal) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_cb4ba_operator.setup_clis/scripts: (kubeseal) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_pull_secret.setup_clis/scripts: (kubeseal) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/setup_clis/scripts: (kubeseal) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_namespace.setup_clis/scripts: (igc) CLI already available in PATH. Creating symlink in /terraform/test/stages/bin2
+/terraform/test/stages/.terraform/modules/gitops.setup_clis/scripts: (igc) CLI already available in PATH. Creating symlink in /terraform/test/stages/bin2
+/terraform/test/stages/.terraform/modules/gitops_pull_secret.setup_clis/scripts: (igc) CLI already available in PATH. Creating symlink in /terraform/test/stages/bin2
+/terraform/test/stages/.terraform/modules/gitops_cb4ba_operator.setup_clis/scripts: (igc) CLI already available in PATH. Creating symlink in /terraform/test/stages/bin2
+/terraform/test/stages/.terraform/modules/setup_clis/scripts: (igc) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_namespace.setup_clis/scripts: (oc) CLI already available in PATH. Creating symlink in /terraform/test/stages/bin2
+/terraform/test/stages/.terraform/modules/setup_clis/scripts: (oc) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_namespace.setup_clis/scripts: (kubectl) CLI already available in PATH. Creating symlink in /terraform/test/stages/bin2
+/terraform/test/stages/.terraform/modules/setup_clis/scripts: (kubectl) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_namespace.setup_clis/scripts: (yq3) CLI already available in PATH. Creating symlink in bin_dir
+/terraform/test/stages/.terraform/modules/setup_clis/scripts: (yq3) CLI already available in PATH. Creating symlink in bin_dir
+/terraform/test/stages/.terraform/modules/setup_clis/scripts: (all) Completed: {"status": "success", "message": "success", "type": "", "bin_dir": "/terraform/test/stages/bin2"}
+/terraform/test/stages/.terraform/modules/gitops_namespace.setup_clis/scripts: (all) Completed: {"status": "success", "message": "success", "type": "", "bin_dir": "/terraform/test/stages/bin2"}
+/terraform/test/stages/.terraform/modules/setup_test_clis/scripts: (all) Input: {"bin_dir":"/terraform/test/stages/test_bin_dir","clis":"kubectl,oc","uuid":"jitkilxdntanmtkx"}
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (all) Input: {"bin_dir":"/terraform/test/stages/bin2","clis":"jq,oc,ibmcloud-ks","uuid":"fjlscvzrjscmpjbi"}
+/terraform/test/stages/.terraform/modules/setup_test_clis/scripts: (all) Detected os type: alpine
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (all) Detected os type: alpine
+/terraform/test/stages/.terraform/modules/setup_test_clis/scripts: (all) Detected architecture: amd64
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (all) Detected architecture: amd64
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (jq) CLI already available in PATH. Creating symlink in 
+/terraform/test/stages/.terraform/modules/setup_test_clis/scripts: (jq) CLI already available in PATH. Creating symlink in /terraform/test/stages/test_bin_dir
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (jq) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/setup_test_clis/scripts: (kubeseal) CLI already available in PATH. Creating symlink in /terraform/test/stages/test_bin_dir
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (oc) CLI already available in PATH. Creating symlink in 
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (oc) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (kubectl) CLI already available in PATH. Creating symlink in 
+/terraform/test/stages/.terraform/modules/setup_test_clis/scripts: (igc) CLI already available in PATH. Creating symlink in /terraform/test/stages/test_bin_dir
+/terraform/test/stages/.terraform/modules/setup_test_clis/scripts: (oc) CLI already available in PATH. Creating symlink in /terraform/test/stages/test_bin_dir
+/terraform/test/stages/.terraform/modules/setup_test_clis/scripts: (kubectl) CLI already available in PATH. Creating symlink in /terraform/test/stages/test_bin_dir
+/terraform/test/stages/.terraform/modules/setup_test_clis/scripts: (all) Completed: {"status": "success", "message": "success", "type": "", "bin_dir": "/terraform/test/stages/test_bin_dir"}
+/terraform/test/stages/.terraform/modules/gitops_entitle_pull_secret.setup_clis/scripts: (all) Input: {"bin_dir":"/terraform/test/stages/bin2","clis":"jq,kubectl,igc","uuid":"oxnbdytmgbeahrwv"}
+/terraform/test/stages/.terraform/modules/gitops_entitle_pull_secret.setup_clis/scripts: (all) Detected os type: alpine
+/terraform/test/stages/.terraform/modules/gitops_entitle_pull_secret.setup_clis/scripts: (all) Detected architecture: amd64
+/terraform/test/stages/.terraform/modules/gitops_entitle_pull_secret.setup_clis/scripts: (jq) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_entitle_pull_secret.setup_clis/scripts: (kubeseal) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_entitle_pull_secret.setup_clis/scripts: (igc) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_entitle_pull_secret.setup_clis/scripts: (oc) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_entitle_pull_secret.setup_clis/scripts: (kubectl) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_entitle_pull_secret.setup_clis/scripts: (all) Completed: {"status": "success", "message": "success", "type": "", "bin_dir": "/terraform/test/stages/bin2"}
+/terraform/test/stages/.terraform/modules/gitops.gitops-repo.setup_clis/scripts: (all) Input: {"bin_dir":"/terraform/test/stages/bin2","clis":"jq,gitu","uuid":"owhmlpmjhxnoscck"}
+/terraform/test/stages/.terraform/modules/gitops.gitops-repo.setup_clis/scripts: (all) Detected os type: alpine
+/terraform/test/stages/.terraform/modules/gitops.gitops-repo.setup_clis/scripts: (all) Detected architecture: amd64
+/terraform/test/stages/.terraform/modules/gitops.gitops-repo.setup_clis/scripts: (jq) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops.gitops-repo.setup_clis/scripts: (kubeseal) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops.gitops-repo.setup_clis/scripts: (igc) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops.gitops-repo.setup_clis/scripts: (oc) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops.gitops-repo.setup_clis/scripts: (kubectl) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops.gitops-repo.setup_clis/scripts: (gitu) CLI already available in PATH. Creating symlink in /terraform/test/stages/bin2
+/terraform/test/stages/.terraform/modules/gitops_pull_secret.setup_clis/scripts: (igc) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_cb4ba_operator.setup_clis/scripts: (igc) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops.setup_clis/scripts: (igc) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops.gitops-repo.setup_clis/scripts: (all) Completed: {"status": "success", "message": "success", "type": "", "bin_dir": "/terraform/test/stages/bin2"}
+/terraform/test/stages/.terraform/modules/gitops.setup_clis/scripts: (oc) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_pull_secret.setup_clis/scripts: (oc) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_cb4ba_operator.setup_clis/scripts: (oc) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops.setup_clis/scripts: (kubectl) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_pull_secret.setup_clis/scripts: (kubectl) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_cb4ba_operator.setup_clis/scripts: (kubectl) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_pull_secret.setup_clis/scripts: (all) Completed: {"status": "success", "message": "success", "type": "", "bin_dir": "/terraform/test/stages/bin2"}
+/terraform/test/stages/.terraform/modules/gitops_cb4ba_operator.setup_clis/scripts: (yq3) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops.setup_clis/scripts: (yq3) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops_cb4ba_operator.setup_clis/scripts: (all) Completed: {"status": "success", "message": "success", "type": "", "bin_dir": "/terraform/test/stages/bin2"}
+/terraform/test/stages/.terraform/modules/gitops.setup_clis/scripts: (gitu) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/gitops.setup_clis/scripts: (all) Completed: {"status": "success", "message": "success", "type": "", "bin_dir": "/terraform/test/stages/bin2"}
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (kubectl) CLI already provided in bin_dir
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (ibmcloud) CLI already available in PATH. Creating symlink in 
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (ibmcloud) Determining release
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (ibmcloud) Found release: v2.11.1
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (ibmcloud) CLI already available in PATH. Creating symlink in bin_dir
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (ibmcloud-kubernetes-service) Plugin already installed: kubernetes-service
+/terraform/test/stages/.terraform/modules/dev_cluster.setup_clis/scripts: (all) Completed: {"status": "success", "message": "success", "type": "", "bin_dir": "/terraform/test/stages/bin2"}
